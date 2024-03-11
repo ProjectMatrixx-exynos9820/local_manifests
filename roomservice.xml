@@ -3,7 +3,6 @@
 
     <!--Remotes-->
     <remote name="dependencies"    fetch="https://github.com/linux4-bringup-priv"/>
-    <remote name="linaro"          fetch="https://github.com/BananaDroid-982x"/>
 
     <!--Devices Trees-->
     <project path="device/samsung/d2x" remote="github" name="ProjectMatrixx-exynos9820/android_device_samsung_d2x" revision="matrixx" />
@@ -31,13 +30,13 @@
     <project path="kernel/samsung/exynos9820" remote="github" name="linux4-bringup-priv/android_kernel_samsung_exynos9820"      revision="lineage-21.0" />
 
     <!-- Dependencies -->
-    <project name="android_device_samsung_slsi_sepolicy"               path="device/samsung_slsi/sepolicy"            remote="linaro"        revision="lineage-21.0" />
-    <project name="android_hardware_samsung"                           path="hardware/samsung"                        remote="dependencies"  revision="lineage-21.0" />
-    <project name="android_hardware_samsung_slsi-linaro_graphics"      path="hardware/samsung_slsi-linaro/graphics"   remote="linaro"        revision="lineage-21.0" />
-    <project name="android_hardware_samsung_slsi-linaro_config"        path="hardware/samsung_slsi-linaro/config"     remote="linaro"        revision="lineage-21.0" />
-    <project name="android_hardware_samsung_slsi-linaro_exynos"        path="hardware/samsung_slsi-linaro/exynos"     remote="linaro"        revision="lineage-21.0" />
-    <project name="android_hardware_samsung_slsi-linaro_openmax"       path="hardware/samsung_slsi-linaro/openmax"    remote="linaro"        revision="lineage-21.0" />
-    <project name="android_hardware_samsung_slsi-linaro_exynos5"       path="hardware/samsung_slsi-linaro/exynos5"    remote="linaro"        revision="lineage-21.0" />
-    <project name="android_hardware_samsung_slsi-linaro_interfaces"    path="hardware/samsung_slsi-linaro/interfaces" remote="linaro"        revision="lineage-21.0" />
+    <project name="android_device_samsung_slsi_sepolicy"               path="device/samsung_slsi/sepolicy"            remote="dependencies"        revision="lineage-21.0" />
+    <project name="android_hardware_samsung"                           path="hardware/samsung"                        remote="dependencies"        revision="lineage-21.0" />
+    <project name="android_hardware_samsung_slsi-linaro_graphics"      path="hardware/samsung_slsi-linaro/graphics"   remote="dependencies"        revision="lineage-21.0" />
+    <project name="android_hardware_samsung_slsi-linaro_config"        path="hardware/samsung_slsi-linaro/config"     remote="dependencies"        revision="lineage-21.0" />
+    <project name="android_hardware_samsung_slsi-linaro_exynos"        path="hardware/samsung_slsi-linaro/exynos"     remote="dependencies"        revision="lineage-21.0" />
+    <project name="android_hardware_samsung_slsi-linaro_openmax"       path="hardware/samsung_slsi-linaro/openmax"    remote="dependencies"        revision="lineage-21.0" />
+    <project name="android_hardware_samsung_slsi-linaro_exynos5"       path="hardware/samsung_slsi-linaro/exynos5"    remote="dependencies"        revision="lineage-21.0" />
+    <project name="android_hardware_samsung_slsi-linaro_interfaces"    path="hardware/samsung_slsi-linaro/interfaces" remote="dependencies"        revision="lineage-21.0" />
     
 </manifest>
